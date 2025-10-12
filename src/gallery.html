@@ -1,3 +1,10 @@
 <h1>Wild Weald Gallery</h1>
 
 {% include 'nav.liquid' %}
+
+{% gallery "Test gallery", 2 %}
+{% galleryImg "../gallery/photo_2025-09-21_18-04-08.jpg", "Earrings", 400 %}
+{% galleryImg "../gallery/photo_2025-09-21_18-06-29.jpg", "Terrarium", 400 %}
+{% galleryImg "../gallery/photo_2025-09-21_18-07-22.jpg", "Terrarium with flowers", 400 %}
+{% galleryImg "../gallery/photo_2025-10-12_16-03-46.jpg", "Longhorn stained glass", 400 %}
+{% endgallery %}
