@@ -74,20 +74,20 @@ function galleryShortcode(content, name, imgPerCol) {
 		}
 	}
 	return `
-				<link rel="stylesheet" href="/css/photoswipe/photoswipe.css">
-				<style>
-					.eleventy-plugin-gallery {
-						display: grid;
-						column-gap: 0.3rem;
-						row-gap: 0.1rem;
-						align-items: center;
-					}
+		<link rel="stylesheet" href="/css/photoswipe/photoswipe.css">
+		<style>
+			.eleventy-plugin-gallery {
+				display: grid;
+				column-gap: 0.3rem;
+				row-gap: 0.1rem;
+				align-items: center;
+			}
 
-					.eleventy-plugin-gallery a > img {
-						width: 100%;
-						height: 100%;
-					}
-					</style>
+			.eleventy-plugin-gallery a > img {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
         <div>
             <div class="eleventy-plugin-gallery" id="gallery-${name}" style="grid-template-columns: repeat(${imgPerCol}, 1fr);">
                 ${content}
