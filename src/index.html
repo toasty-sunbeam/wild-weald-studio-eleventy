@@ -22,19 +22,22 @@
 		height: 100%;
 		flex-grow: 1;
 	}
-	.main-bg {
-		background: url('/img/home-bg.jpg');
-		background-size: contain;
-		background-repeat: no-repeat;
-		width: auto;
+	.main-wrapper {
 		height: 100%;
+		position: relative;
+		width: fit-content;
+	}
+	.hero {
+		height: 100%;
+		display: block;
 	}
 	.main-col {
+		position: absolute;
 		display: flex;
 		flex-direction: column;
 		z-index: 1;
 
-		margin-left: 55%;
+		margin-left: 60%;
 		width: 30%;
 		height: 100%;
 		gap: .5em;
@@ -58,7 +61,7 @@
 		{% include 'nav.liquid' %}
 	</header>	
 	<main>
-		<div class="main-bg">
+		<div class="main-wrapper">
 			<div class="main-col">
 				<img src="img/Logo.svg" alt="Wild Weald Studio" class="logo"/>
 				<p class="font-white text-shadow">
@@ -73,6 +76,7 @@
 					in Durham, North Carolina
 				</p>
 			</div>
+			<img src="/img/home-bg.jpg" alt="Holly Harris crafting glass in her workshop" class="hero"/>
 		</div>
 	</main>
 </body>
