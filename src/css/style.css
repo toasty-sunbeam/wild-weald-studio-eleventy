@@ -1,0 +1,68 @@
+/** MARK: Reset
+*/
+
+body {
+	margin: 0;
+}
+
+/** MARK: Colors
+*/
+:root {
+	--color-earth: #372a2d;
+	--color-clay: #762d02;
+	--color-yellow: #c5ce27;
+	--color-sage: #8f9b72;
+	--color-slate: #526f75;
+}
+.font-earth { color: var(--color-earth); }
+.font-clay { color: var(--color-clay); }
+.font-yellow { color: var(--color-yellow); }
+.font-sage { color: var(--color-sage); }
+.font-slate { color: var(--color-slate); }
+.font-white { color: white; }
+
+/** MARK: Fonts
+*/
+@font-face {
+	font-display: swap;
+	font-family: 'Flora';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/Flora.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 300 700;
+	src: url('/fonts/Quicksand[wght].woff2') format('woff2');
+}
+
+.font-bold { font-weight: bold; }
+
+/** MARK: Header
+*/
+
+header ul {
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	gap: 2rem;
+	text-align: right;
+	padding-right: 1em;
+	height: 100%;
+}
+
+header nav a {
+	font-family: "Quicksand", sans-serif;
+	font-size: 2rem;
+	font-weight: 350;
+	display: inline-block; /* ::first-letter needs a block container */
+	color: var(--color-earth);
+	text-decoration: none;
+}
+
+nav a::first-letter {
+	font-family: "Flora", sans-serif;
+}

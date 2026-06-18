@@ -1,8 +1,12 @@
 import { galleryShortcode, galleryImageShortcode } from './gallery.js';
 
 export default async function(eleventyConfig) {
+	// Gallery
     eleventyConfig.addPairedShortcode("gallery", galleryShortcode);
 	eleventyConfig.addShortcode("galleryImg", galleryImageShortcode);
+	eleventyConfig.addPassthroughCopy("src/css");
+	eleventyConfig.addPassthroughCopy("src/img");
+	eleventyConfig.addPassthroughCopy("src/fonts");
 	eleventyConfig.addPassthroughCopy({
 		"./node_modules/photoswipe/dist/photoswipe-lightbox.esm.min.js":
 			"/js/photoswipe/photoswipe-lightbox.esm.min.js",
