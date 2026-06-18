@@ -1,3 +1,28 @@
+<style>
+	nav ul {
+		display: flex;
+		flex-direction: column;
+		list-style-type: none;
+		gap: 2rem;
+		text-align: right;
+		padding-right: 1em;
+		height: 100%;
+	}
+
+	nav a {
+		font-family: "Quicksand", sans-serif;
+		font-size: 2rem;
+		font-weight: 350;
+		display: inline-block; /* ::first-letter needs a block container */
+		color: var(--color-earth);
+		text-decoration: none;
+	}
+
+	nav a::first-letter {
+		font-family: "Flora", sans-serif;
+	}
+</style>
+
 <nav>
 	<ul>
 		<li><a href="/"><span style="margin-right: -.125em">H</span>ome</a></li>
