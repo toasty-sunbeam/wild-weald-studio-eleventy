@@ -38,8 +38,6 @@
 		flex-direction: column;
 		z-index: 1;
 
-		margin-left: 60%;
-		width: 30%;
 		height: 100%;
 		gap: .5em;
 
@@ -48,12 +46,39 @@
 		font-size: 2.25cqw;
 	}
 	.logo {
-		margin: 40% 0 10% 0; /* FIXME */
+		margin: 40% 0 10% 0;
 	}
 	.text-shadow {
 		text-shadow:
 			black 0 0 5px,
 			black 0 0 2px;
+	}
+	@media (width > 768px) {
+		.main-col {
+			margin-left: 60%;
+			width: 30%;
+		}
+	}
+	@media (max-width: 768px) {
+		.main-wrapper {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+		.hero {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: right center;
+		}
+		.main-col {
+			width: 100%;
+			font-size: 4cqw;
+		}
+		.logo {
+			width: 50%;
+			margin: 10% auto 5% auto;
+		}
 	}
 </style>
 
