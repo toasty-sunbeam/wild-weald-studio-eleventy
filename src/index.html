@@ -1,7 +1,6 @@
-<!DOCTYPE html>
-<head>
-	<link rel="stylesheet" href="css/style.css">
-</head>
+---
+layout: layouts/page.liquid
+---
 
 <style>
 	html {
@@ -82,27 +81,20 @@
 	}
 </style>
 
-<body>
-	<header>
-		{% include 'nav.liquid' %}
-	</header>	
-	<main>
-		<div class="main-wrapper">
-			<div class="main-col">
-				<img src="img/Logo.svg" alt="Wild Weald Studio" class="logo"/>
-				<p class="font-white text-shadow">
-					Broken shards <br/>
-					reknit into <br/>
-					vibrant art
-				</p>
-				<p class="font-chartreuse font-bold text-shadow">
-					Artisinal stained glass <br/>
-					and threadcraft <br/>
-					from the woods <br/>
-					in Durham, North Carolina
-				</p>
-			</div>
-			<img src="/img/home-bg.jpg" alt="Holly Harris crafting glass in her workshop" class="hero"/>
-		</div>
-	</main>
-</body>
+<div class="main-wrapper">
+	<div class="main-col">
+		<img src="img/Logo.svg" alt="Wild Weald Studio" class="logo"/>
+		<p class="font-white text-shadow">
+			Broken shards <br/>
+			reknit into <br/>
+			vibrant art
+		</p>
+		<p class="font-chartreuse font-bold text-shadow">
+			Artisinal stained glass <br/>
+			and threadcraft <br/>
+			from the woods <br/>
+			in Durham, North Carolina
+		</p>
+	</div>
+	<img src="/img/home-bg.jpg" alt="Holly Harris crafting glass in her workshop" class="hero"/>
+</div>
