@@ -10,13 +10,13 @@ body {
 :root {
 	--color-earth: #372a2d;
 	--color-clay: #762d02;
-	--color-yellow: #c5ce27;
+	--color-chartreuse: #c5ce27;
 	--color-sage: #8f9b72;
 	--color-slate: #526f75;
 }
 .font-earth { color: var(--color-earth); }
 .font-clay { color: var(--color-clay); }
-.font-yellow { color: var(--color-yellow); }
+.font-chartreuse { color: var(--color-chartreuse); }
 .font-sage { color: var(--color-sage); }
 .font-slate { color: var(--color-slate); }
 .font-white { color: white; }
