@@ -31,6 +31,20 @@
 	nav a::first-letter {
 		font-family: "Flora", sans-serif;
 	}
+	@media (max-width: 768px) {
+		nav ul {
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 0;
+			height: auto;
+			padding: 0;
+		}
+		nav a {
+			font-size: 1.1rem;
+			padding: .4em .6em;
+		}
+	}
 </style>
 
 <nav>
