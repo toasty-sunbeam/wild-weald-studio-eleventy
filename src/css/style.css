@@ -1,6 +1,10 @@
 /** MARK: Reset
 */
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 }
@@ -30,7 +34,6 @@ body {
 	font-weight: 400;
 	src: url('/fonts/Flora.woff2') format('woff2');
 }
-
 @font-face {
 	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 	font-family: 'Quicksand';
@@ -38,7 +41,7 @@ body {
 	font-weight: 300 700;
 	src: url('/fonts/Quicksand[wght].woff2') format('woff2');
 }
-
+.font-quicksand { font-family: "Quicksand", sans-serif; }
 .font-bold { font-weight: bold; }
 
 /** MARK: Layout
@@ -50,9 +53,11 @@ html {
 body {
 	width: 100%;
 	height: 100%;
+	color: white;
 	background-color: #3F4138;
 	display: flex;
 	flex-direction: row;
+	font-family: "Quicksand", sans-serif;
 }
 header {
 	background: #a1a896;
@@ -61,8 +66,20 @@ main {
 	height: 100%;
 	flex-grow: 1;
 }
-.main-wrapper {
-	position: relative;
-	width: min(100%, calc(100vh * 2480 / 1857));
-	container-type: inline-size;
+.center-xy {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+.text-lg {
+	font-size: 1.2em;
+}
+.p-1 {
+	padding: 1em;
 }
