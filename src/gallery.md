@@ -80,7 +80,7 @@ Date: 2025
 
 Medium: Mouth-blown and machine-rolled glass, copper foil, lead solder, cedar wood, chain
 
-A glass affirmation paired with the first betta in this series, *Bouyance*, which is held in a private collection and could not be displayed today. The inscription "Existence is an act of defiance" refers to the struggle many face against depression and the genuine daily triumph of choosing to continue.
+A glass affirmation paired with the first betta in this series, *Buoyance*, which is held in a private collection and could not be displayed today. The inscription "Existence is an act of defiance" refers to the struggle many face against depression and the genuine daily triumph of choosing to continue.
 
 ### 7. _Owe No One_ $75
 
@@ -120,7 +120,7 @@ A first experimental piece merging my two primary media: glass and fiber, inspir
 
 ### 12. *Ginkgo Circlet I* $150
 
-Medium: Machin-rolled glass; copper foil; copper wire; hoop; copper patina
+Medium: Machine-rolled glass; copper foil; copper wire; hoop; copper patina
 
 As I have worked in stained glass, I have found myself growing tired and frustrated by the lack of relief, texture, and volume in the media. Further, I have found the method of composition, construction, and precise execution of design to be both deeply satisfying and rigidly constricting in the same moment. I decided to attempt to create repeating forms which were unbound by the negative space around them, and ginkgo leaves offer forgiving, organically creatable shapes. By placing them into their native branching structure on medium-temper wire, I achieved an almost sculptural form, allowing a sense of depth and overlap, while allowing for repositioning and new topography to emerge.
 
