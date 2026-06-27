@@ -2,7 +2,7 @@
 layout: layouts/gallery.liquid
 ---
 
-_Bounded: explorations of line, shape, and taking up space in stained glass_
+# _Bounded: explorations of line, shape, and taking up space in stained glass_
 
 Works of Holly Harris presented by Liberty Arts
 
@@ -15,7 +15,7 @@ Around and between the betta collection, the show ranges through experiments at 
 All purchased works can be picked up immediately following the conclusion of the show, or at Holly's studio within Liberty Arts at 918 Pearl Street the week of June 29.
 
 
-# Price List
+## Price List
 1. *Muchness* $1350
 2. *Reserve* $325
 3. *Claim* $500
@@ -33,15 +33,25 @@ All purchased works can be picked up immediately following the conclusion of the
 15. *Blue Bird Circlet I* Commissioned
 16. *Autumn Leaves I* On Loan
 
-# Statements
-1. Muchness $1350
+## Statements
+### 1. _Muchness_
+
+$1350
+
 Date: 2026
+
 Medium: Mouth-blown and machine-rolled glass; iridescent, opalescent, cathedral, reamy, streaky, and seedy glass; copper foil; lead solder; zinc frame; photo paper.
+
 A rainbow of sinuously cut glass, this betta is unapologetically present. Surrounded by iridescent water glass, the subject makes eye contact with the viewer, fins fully flared and unafraid. Made as a capstone of the Linger and Rise series, *Muchness* embodies the work to embrace one's own identity, value, and vibrance.
 
-2. Reserve $325
+### 2. Reserve
+
+$325
+
 Date: 2025  
+
 Medium: Mouth-blown and machine-rolled glass, copper foil, lead solder
+
 In cool hues of turquoise, plum, and olive, the delicate betta curves back upon itself in a quiet, self-protective pose, neither hidden nor fully exposed. *Reserve* honors the wisdom of keeping oneself as one guards a castle; it is an affirmation that privacy may be an act of self-care and a refutation that boundaries are lies of omission.
 
 3. Claim $500
