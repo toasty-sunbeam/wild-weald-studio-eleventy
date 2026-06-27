@@ -56,7 +56,7 @@ Date: 2025
 
 Medium: Mouth-blown and machine-rolled glass, water glass, iridescent glass, copper foil, lead solder
 
-The third in the series, *Claim* was the first declaration of my timid desire to take up space, to take up my *own* space without fear, arrogance, or apology. The cool blues and teals present in the piece represent my mood at the time of fabrication: still grieving, timid, hopeful, and furtive. The betta, only mildly flared and facing the viewer directly, stands his metaphorical ground without challenging the viewer. He knows that his territory is his, and it is enough without the need to encroach on another's.
+The third in the series, *Claim*, was the first declaration of my timid desire to take up space, to take up my *own* space without fear, arrogance, or apology. The cool blues and teals present in the piece represent my mood at the time of fabrication: still grieving, timid, hopeful, and furtive. The betta, only mildly flared and facing the viewer directly, stands his metaphorical ground without challenging the viewer. He knows that his territory is his, and it is enough without the need to encroach on another's.
 
 ### 4. _Confidence_ $600
 
