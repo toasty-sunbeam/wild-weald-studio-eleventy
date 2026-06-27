@@ -131,3 +131,9 @@ main {
 .p-1 {
 	padding: 1em;
 }
+.p-2 {
+	padding: 2em;
+}
+.wrap-pretty {
+	text-wrap: pretty;
+}
